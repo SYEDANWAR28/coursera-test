@@ -1,110 +1,67 @@
 body {
-    font-size: 16px;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #1a1a1a;
-    background-color: #599e4b;
+  font-size: 16px;
+  color: rgba(34, 33, 33, 0.884);
+  background-color: #80bad1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-
-
-/** HEADER **/
 
 #header-nav {
-    background-color: #c98715;
-    border-radius: 0;
-    border: 0;
+  background-color: #6f44a0;
+  border-radius: 0;
+  border: 0;
+  min-height: 70px;
 }
 
-#header-nav button {
-    margin-top: 22px;
-}
-
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #fce29e;
-    
-}
-
-.navbar-collapse {
-    border-top: 3px;
-}
-
-.navbar-brand {
-    line-height:50px;
-    height: 50px;
-    padding-top: 0px;
-}
-
- .navbar-nav li a {
-    line-height:50px;
-    height: 50px;
-    padding-top: 0;
-}
 .navbar-brand h1 {
-    color: #7d1913;
-    font-family: 'Abril Fatface', cursive;
-    font-weight: bolder;
-    font-size: 1.8em;
+  font-family: 'Lora', serif;
+  color: #80bad1;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: .75;
 }
 
-.navbar-brand a:hover {
-    text-decoration: none;
-    text-shadow: 2px 2px 2px #fe9797;
-}
-
-#nav-list {
-    background-color: #e4af34;
-    
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
 }
 
 #nav-list a {
-    text-align: center;
-    font-weight: bolder;
-    color: #282828;
-    font-size: 1.2em;
+  color: #80bad1;
+  font-weight: bold;
 }
 
 #nav-list a:hover {
-    color: #202020;
-    background-color: #fce29e;
+  background: rgb(236, 236, 209);
 }
-
-
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid #80bad1;
 }
+
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
 }
 
-
-/** END HEADER */
-
-
-/** HOME PAGE **/
-
-#main-content {
-    width: 92%;
-    margin-bottom: 30px;
+#page-title {
+  font-weight: bold;
+  margin-bottom: 30px;
 }
 
-#main-content h2 {
-    font-size: 2.9em;
-    font-weight: bold;
-    margin-top: 30px;
-    margin-bottom: 50px;
+#main-text {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-#main-content h3 {
-    font-size: 1.6em;
-    font-weight: bold;
-    margin-bottom: 1em;
+.text-background {
+  height: 3000px;
+  padding: 20px 40px 20px 40px;
+  background-color: rgb(236, 236, 209);
+  overflow: hidden;
 }
 
-#chicken-tile, #beef-tile, #sushi-tile {
-    width: 100%;
-    padding: 20px;
-    background-color: #99ed7b;
-    margin-bottom: 60px;
-    box-shadow: 0 0 80px #18580b;
+h3 {
+  font-weight: bold;
 }
